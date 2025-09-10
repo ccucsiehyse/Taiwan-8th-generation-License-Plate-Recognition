@@ -1,0 +1,75 @@
+開始批次測試...
+[AAA6385.jpg] True: AAA6385 | Predict: AAA6368
+[ADK3926.jpg] True: ADK3926 | Predict: S620S6L
+[EPK2956.jpg] True: EPK2956 | Predict: 
+[EPK7521.jpg] True: EPK7521 | Predict: 22222SS
+[LAV6070.jpg] True: LAV6070 | Predict: 
+[MBJ3073.jpg] True: MBJ3073 | Predict: X22222K
+[MHE2990.jpg] True: MHE2990 | Predict: 
+[MLV5386.jpg] True: MLV5386 | Predict: 
+[MLV7128.jpg] True: MLV7128 | Predict: MLY7928
+[MLZ7679.jpg] True: MLZ7679 | Predict: 
+[MMA9532.jpg] True: MMA9532 | Predict: 
+[MMF1298.jpg] True: MMF1298 | Predict: MMPS263
+[MQV7697.jpg] True: MQV7697 | Predict: 
+[MUV2652.jpg] True: MUV2652 | Predict: 
+[MUY5686.jpg] True: MUY5686 | Predict: M0KS686
+[MXA7865.jpg] True: MXA7865 | Predict: MXK786S
+[MYW0897.jpg] True: MYW0897 | Predict: SYW0YK7
+[MYY9969.jpg] True: MYY9969 | Predict: 
+[MZD0506.jpg] True: MZD0506 | Predict: S22222E
+[MZH6068.jpg] True: MZH6068 | Predict: 2S38SSN
+[NBW8888.jpg] True: NBW8888 | Predict: N6S8868
+[NDD8396.jpg] True: NDD8396 | Predict: NDDS3K6
+[NFQ2820.jpg] True: NFQ2820 | Predict: NPQ29Z0
+[NGA6071.jpg] True: NGA6071 | Predict: NGK607S
+[NGM8930.jpg] True: NGM8930 | Predict: 
+[NGQ0563.jpg] True: NGQ0563 | Predict: NG90363
+[NHB1057.jpg] True: NHB1057 | Predict: L22222S
+[NHQ9661.jpg] True: NHQ9661 | Predict: 
+[NHS6081.jpg] True: NHS6081 | Predict: SSKS22S
+[NNP9989.jpg] True: NNP9989 | Predict: NNP6999
+
+--- 評估結果 ---
+字元準確率：40.60%
+字元覆蓋率：63.33%
+完整車牌辨識率：0.00%
+
+
+################################################# 英數分開判別
+開始批次測試...
+[AAA6385.jpg] True: AAA6385 | Predict: AAA6368
+[ADK3926.jpg] True: ADK3926 | Predict: SKS0968
+[EPK2956.jpg] True: EPK2956 | Predict: 
+[EPK7521.jpg] True: EPK7521 | Predict: SSS2299
+[LAV6070.jpg] True: LAV6070 | Predict: 
+[MBJ3073.jpg] True: MBJ3073 | Predict: XSS2228
+[MHE2990.jpg] True: MHE2990 | Predict: 
+[MLV5386.jpg] True: MLV5386 | Predict:
+[MLV7128.jpg] True: MLV7128 | Predict: MLY7928
+[MLZ7679.jpg] True: MLZ7679 | Predict: 
+[MMA9532.jpg] True: MMA9532 | Predict:
+[MMF1298.jpg] True: MMF1298 | Predict: MMP9263
+[MQV7697.jpg] True: MQV7697 | Predict: 
+[MUV2652.jpg] True: MUV2652 | Predict:
+[MUY5686.jpg] True: MUY5686 | Predict: MUK5686
+[MXA7865.jpg] True: MXA7865 | Predict: MXK7868
+[MYW0897.jpg] True: MYW0897 | Predict: SYW0667
+[MYY9969.jpg] True: MYY9969 | Predict:
+[MZD0506.jpg] True: MZD0506 | Predict: SSS2222
+[MZH6068.jpg] True: MZH6068 | Predict: SSY8863
+[NBW8888.jpg] True: NBW8888 | Predict: NBS8868
+[NDD8396.jpg] True: NDD8396 | Predict: NDD6366
+[NFQ2820.jpg] True: NFQ2820 | Predict: NPQ2920
+[NGA6071.jpg] True: NGA6071 | Predict: NGK6073
+[NGM8930.jpg] True: NGM8930 | Predict:
+[NGQ0563.jpg] True: NGQ0563 | Predict: NGQ0363
+[NHB1057.jpg] True: NHB1057 | Predict: LSS2222
+[NHQ9661.jpg] True: NHQ9661 | Predict:
+[NHS6081.jpg] True: NHS6081 | Predict: SSK3228
+[NNP9989.jpg] True: NNP9989 | Predict: NNP6999
+
+--- 評估結果 ---
+字元準確率：45.86%
+字元覆蓋率：63.33%
+完整車牌辨識率：0.00%
