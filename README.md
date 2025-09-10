@@ -1,6 +1,6 @@
 # 台灣車牌辨識系統 (Taiwan License Plate Recognition)
 
-這是在「機器學習概論」課程中開發的期末專案。本專案旨在應用課堂所學的聚類、特徵提取和分類等機器學習技術，從頭開始建立一個可行的台灣車牌辨識 (LPR) 系統。
+這是在「機器學習概論」課程中開發的期末專案。本專案旨在應用課堂所學的 **Clustering**, **Feature Extraction**, **Classification** 等機器學習技術，從頭開始建立一個可行的台灣車牌辨識 (LPR) 系統。
 
 專案的核心特色是透過多次 **迭代改進 (Iterative Improvement)**，從最初 **26.1%** 的辨識率，逐步將系統性能提升至最終的 **78.10%**。
 
@@ -61,7 +61,7 @@
 1.  **Kaggle - License Plate Digits Classification Dataset**：專案初期用於訓練線性分類器的資料集。
 2.  **roboflow - High Precision Taiwan License Plate Number Recognition**：用於最終模型評估的測試資料集。
 3.  **自建台灣車牌字元資料集**：
-      - **來源**：參考[台灣車牌規則](https://cynthiachuang.github.io/Taiwan-License-Plate-Rules-for-LPR/)，手動裁切建立。
+      - **來源**：參考[台灣車牌規則](https://cynthiachuang.github.io/Taiwan-License-Plate-Rules-for-LPR/)，手動裁切建立 (我們選擇第八代的字元樣式進行訓練)。
       - **處理**：對每個字元進行縮放、旋轉和添加噪音等**資料增強**，將資料量擴增 1000 倍，以提高模型的泛化能力。
       - **優化**：在專案後期，根據字元辨識的頻率統計結果對此資料集進行了多次修正。
 
@@ -186,7 +186,3 @@ python train_model.py
 1.  **車牌定位方法**：從早期的 `Canny + 輪廓` 演進到後期的 `Sobel + 垂直投影`，後者在定位上更為穩定。
 2.  **字元分割策略**：從純 `K-means` 演進到 `K-means + 輪廓分析`，後者分割更精確。
 3.  **台灣車牌規則**：在後期版本中加入「前3字母後4數字」的限制，是辨識率大幅提升的關鍵。
-
-## 結論
-
-透過本專案，我們成功應用了機器學習中的分類、K-Means、PCA 和 GMM 等技術，開發了一個完整的車牌辨識系統。在實踐過程中，我們不僅加深了對這些基礎方法的理解，也體會到它們在真實世界問題中的局限性。最重要的是，我們學會了如何透過**持續的迭代、分析與優化**，系統性地解決問題並提升模型性能，最終取得了令人滿意的成果。
